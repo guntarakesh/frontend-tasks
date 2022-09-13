@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <style>
+  #about{
+    background-color:lightgray;
+    color: white;
+  }
+  #about1{
+    background-color:hsla(240, 22%, 23%, 0.743);
+    color:white;
+   padding-left:5%;
+   padding-right:5%;
+  padding-top:0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #title-about{
+    text-align:center;
+    color:aquamarine;
+    border-bottom:3px solid white;
+  }
+
+#full-navbar{
+  justify-content: space-between;
+}
+#title-mission{
+  text-align:center;
+  color: aqua;
+  border-bottom:3px solid white;
+}
+#mission{
+    background-color:lightgray;
+    color: white;
+  }
+#mission1{
+    background-color:hsla(240, 100%, 2%, 0.743);
+    color:white;
+   padding-left:5%;
+   padding-right:5%;
+  padding-top:0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .footer{
+    background-color: aqua;
+  }
+  .carousel-control-prev{
+    width:26px;
+  }
+  .carousel-control-next{
+    width:26px;
+  }
+  #button{
+    border-radius:50%;
+    width:10px;
+    height:10px;
+  }
+  #home:hover{
+    color: aqua;
+  }
+  #faculty:hover{
+    color: aqua;
+  }
+  #team:hover{
+    color: aqua;
+  }
+ </style>
+<body>
+  <header id="header" class="fixed-top header-transparent">
+  <nav class="navbar navbar-expand-sm nav-dark  navbar-dark">
+    <div class="container-fluid" id="full-navbar">
+      <div id="logo">
+      <a class="navbar-brand" href="#">
+        <img src="./logo2.png" style="width:80px;"> 
+      </a>
+      </div>
+      <div id="non-logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      
+      <ul class="navbar-nav">
+        
+      <div>   <li class="nav-item">
+            <a class="nav-link" id="home" href="#"><b>HOME</b></a>
+          </li>
+          </div>
+          <div >
+          <li class="nav-item">
+            <a class="nav-link" id="faculty" href="#"><b>FACULTY</b></a>
+          </li>
+  </div>
+  <div >
+          <li class="nav-item">
+            <a class="nav-link" id="team" href="#"><b>TEAM</b></a>
+          </li>  
+          </div>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button  id="button" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" ></button>
+      <button id="button" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+   <button id="button" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button> 
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="image" src="./nitdgp1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NIT DURGAPUR</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img  id="image" src="./ecedepartment3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>ECE DEPARTMENT</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="image" src="./ecedepartment2.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>ECE DEPARTMENT</h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card" id="about">
+  <div class="card" id="about1">
+    <h2 class="card-title" id="title-about">
+  ABOUT US
+    </h2>
+    <div class="card-body">
+      The embryonic formation of the Department of Electronics and Communication Engineering was in the year 1983 with the introduction of an undergraduate course. Situated amidst lush green campus with teak plantations, the Department, over the time, has grown in several dimensions and provides a magnetic ambience in teaching and learning. The faculties are engaged in research in diverse topics focussing in Telecommunication, Antenna and Microwave, Microelectronics and VLSI, Signal and Image processing and Computational Systems Biology. It is well equipped with sophisticated laboratories in the areas of VLSI, Signal Processing, Microwave, Antenna and Wireless Communication. The Department has been supported by, SMDP for VLSI, DST-FIST for Wireless Communications and NPMASS for MEMS Research. Sponsored research from research initiation grant as well as DST and SERB have been initiated over the years.The Department is committed to impart quality education at undergraduate as well as postgraduate level and promulgate quality research in diverse fields of application of electronics engineering.
+
+    </div>
+  </div>
+  </div>
+  <div class="card" id="mission">
+<div class="card" id="mission1">
+    <h2 class="card-title" id="title-mission">
+      MISSION
+    </h2>
+    <div class="card-body">
+    <ul>
+      <li>
+        To develop and nurture a community by the students of the Electronics and Communication Department that will work towards the betterment and welfare of the department and its students in general.
+      </li>
+      <li>
+        To develop a strong alumni network and involve them in conducting various seminars, workshops, as well as career guidance assistance via interaction sessions with the students of Electronics and Communication Engineering.
+      </li>
+      <li>
+        To systematically allow access to the computer laboratory of the department for maximum utilization by the students and equip the computers with state-of-the-art applications and software that can be made available to the students to hone their software skills and perform necessary simulations.
+      </li>
+      <li>
+        To develop a wing that will help the students to sharpen their interpersonal skills and career attributes.
+      </li>
+      <li>
+        To constantly invesitgate the Laboratory equipments and instruments on a regualar basis and based on student-raised concerns for better maintainance and fast communication about the same to the concerned authorities
+      </li>
+      <li>
+        To develop an event management team that will arrange seminars and symposiums of esteemed personas from the industry as well as prominent research domains of the discipline.
+      </li>
+      <li>
+        To brainstorm and suggest courses and different modifications after thorough discussion with the faculty on a regular basis thus maintaining the relevance of the courses to the current industry and research activities and make necessary arrangements to make the education process more efficient and comprehensible for both the faculty and students.
+      </li>
+    </ul>
+      </div>
+      </div></div>
+      <footer class="footer">
+
+      </footer>
+</body>
+</html>
